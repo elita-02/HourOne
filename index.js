@@ -18,14 +18,14 @@ function togglePhone() {
 setInterval(togglePhone, 5000); 
 
 
-window.addEventListener("scroll", function () {
-    let headerTwo = document.querySelector(".header-two");
-    let header = document.querySelector(".header");
-    let headerHeight = header.offsetHeight;
+// window.addEventListener("scroll", function () {
+//     let headerTwo = document.querySelector(".header-two");
+//     let header = document.querySelector(".header");
+//     let headerHeight = header.offsetHeight;
 
-    if (window.scrollY > headerHeight) {
-        headerTwo.style.top = headerHeight + "px";
-    } else {
-        headerTwo.style.top = "80px";
-    }
-});
+//     if (window.scrollY > headerHeight) {
+//         headerTwo.style.top = headerHeight + "px";
+//     } else {
+//         headerTwo.style.top = "80px";
+//     }
+// });
